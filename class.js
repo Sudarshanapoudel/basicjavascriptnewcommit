@@ -8,15 +8,19 @@ class car{
  }
 
 // // Setting the object properties outside the class
+//creating object from class
+//toyota is object here in new car
 let toyota = new car()
 // let honda = new car()
 
-// Fetch the  values 
+// update the  values 
+//object.property = new value
 toyota.year = 2013
  toyota.name = "rav4"
  toyota.color = "white"
  toyota.model = 2021
 
+//fetch the value
  console.log("....dot notation.........")
 
  console.log(toyota.year) //dot notation
@@ -32,12 +36,16 @@ console.log(toyota['name'])
  console.log(toyota['model'])
 
 
+//adding the new property
+//object.property = new value here mileage added
 
- toyota.year = 2013
- toyota.Name = "rav4"
- toyota.color = "white"
- toyota.model = 2021
+ toyota.mileage = "150k miles"
  console.log(toyota)
+
+ //delete
+ //delete object.property
+ delete toyota.mileage
+ 
 
 
 // Setting the properties at the time of object creation
