@@ -60,9 +60,13 @@ class car1{
     }
     
 }
-
+//let toyota1 = new car1
 let toyota2 = new car1(2013,"rav4","white",2021)
- let honda =  new car1(2015,"crv","grey",2022)
+
+//let honda = new car1
+let honda= new car1(2015,"crv","grey",2022)
+
+//let nissan = new car1
 let nissan = new car1(2015,"ultima","black",2024)
 console.log(toyota2)
 console.log(honda)
@@ -133,3 +137,77 @@ console.log(honda2)
 //1) outside the class 
 //2) while creating object using constructor // most preferred way
 //3) using function
+
+//using function set
+class person{
+    name = null
+    age = null
+    rollno= null
+    phonenum= null
+    city = null
+
+    setname(namee){
+        this.name = namee
+    }
+
+    setage(age1){
+        this.age = age1
+    }
+
+    setrollno(rollno1){
+        this.rollno = rollno1
+    }
+
+    setphonenum(phonenum1){
+        this.phonenum = phonenum1
+    }
+
+    setcity(city1){
+        this.city = city1
+    }
+}   
+
+let sudar = new person()
+sudar.setname("nani")
+sudar.setage(25)
+sudar.setrollno(12)
+sudar.setphonenum(984237781)
+sudar.setcity("brt")
+console.log(sudar)
+
+
+//using constructor
+
+class person1{
+    name = null
+    age = null
+    rollno = null
+    phone = null
+    city = null
+}
+
+
+
+    class person2{
+        constructor(namee,age1,rollno1,phone1,city1){
+            this.name = namee
+            this.age = age1
+            this.rollno = rollno1
+            this.phone= phone1
+            this.city = city1
+
+        }
+           
+
+    }
+
+
+let susan = new person2()
+ susan = new person2("nani1",20,01,088877666,"ktm")
+ console.log(susan)
+
+ let akriti = new person2()
+ akriti = new person2("rosy",21,11,999933333,"pokhara")
+ console.log(akriti)
+
+ 
