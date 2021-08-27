@@ -2,9 +2,19 @@ h1 {
     color:green
 }
 
+h2 {
+    color:  red;
+    font: medium;
+
+}
+
+h3{
+    color: blue;
+    font: medium;
+}
 p {
     font-size: 23px;
     color:blue;
     background-color:red;
-    
+    font-weight: 100;
 }
